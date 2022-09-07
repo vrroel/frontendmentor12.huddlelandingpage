@@ -28,6 +28,10 @@ p {
   padding: 0;
 }
 
+h1 span{
+  display: block;
+}
+
 body {
   background-color: var(--violet);
   background-image: url("../images/bg-mobile.svg");
@@ -102,7 +106,7 @@ body {
   height: 32px;
 }
 
-.footer svg:hover {
+.footer a:hover svg{
   border: 1px solid var(--soft-magenta);
   cursor: pointer;
   fill: var(--soft-magenta);
